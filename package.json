@@ -9,6 +9,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-node": "nodemon backend/index.js"
+    "start-node": "nodemon backend/index.js",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-loader": "^8.3.0"
   }
 }
