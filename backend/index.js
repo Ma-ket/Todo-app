@@ -14,7 +14,7 @@ const port = 3001;
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'MakotoSQL674724!!',
+    password: '??',
     database: 'todo_db'
 })
 
